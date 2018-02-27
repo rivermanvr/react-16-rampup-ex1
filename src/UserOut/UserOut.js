@@ -18,8 +18,8 @@ const userOut = ({ p1, p2 }) => {
   return (
     <div>
       <div style={ styleLine }><strong>Paragraphs</strong></div>
-      <div><p style={ styleOutput }>{ p1 }</p></div>
-      <div><p style={ styleOutput }>{ p2 }</p></div>
+      <p style={ styleOutput }>{ p1 }</p>
+      <p style={ styleOutput }>{ p2 }</p>
     </div>
   );
 };

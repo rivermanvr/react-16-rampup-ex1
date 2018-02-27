@@ -20,7 +20,7 @@ const userIn = ({ id, onInputChange }) => {
         <label><strong>User-Id</strong></label>
       </div>
       <div style={ styleLine }>
-        <input style={ styleInput } value={ id } onChange={onInputChange} />
+        <input style={ styleInput } value={ id } onChange={onInputChange} type="text" />
       </div>
     </div>
   )
