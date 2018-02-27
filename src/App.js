@@ -13,7 +13,6 @@ class App extends Component {
 
   onInputChange = (event) => {
     const userId = event.target.value;
-    console.log(userId);
     this.setState({ userId });
   }
   
