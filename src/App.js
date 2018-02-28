@@ -22,7 +22,7 @@ class App extends Component {
         <header>
           <h1 className="App-title">React-16-Example #1</h1>
         </header>
-        <UserIn id={ this.state.userId } onInputChange={ this.onInputChange.bind(this) } />
+        <UserIn id={ this.state.userId } onInputChange={ this.onInputChange } />
         <UserOut p1={ this.state.paragraph_1 } p2={ this.state.paragraph_2 } />
       </div>
     );
